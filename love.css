@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  font-family: "poppins", sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #ff4081;
+}
+
+.gombal {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff4081;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+
+.btn :hover {
+  background-color: #ff1f6b;
+}
